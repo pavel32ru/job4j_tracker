@@ -27,7 +27,6 @@ public class Calculator {
         int divideResult = divide(number);
         int sumResult = sum(number);
         int multiplyResult = multiply(number);
-
         return sumResult + multiplyResult + minusResult + divideResult;
     }
 
